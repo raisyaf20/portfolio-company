@@ -1,0 +1,17 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    border-bottom: solid 1px;
+    margin-top: 10px;
+}
+.navbar-nav {
+    font-size: 20px solid;
+    font-family: poppins, sans-serif;
+}
+
+.nav-link {
+    color: black;
+}
+
