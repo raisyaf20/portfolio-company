@@ -31,3 +31,15 @@ body {
         margin-bottom: 100px;
     }
 }
+section h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #7FD9EB;
+    margin-bottom: 20px;
+}
+.about p {
+    text-align: center;
+    color: black;
+    word-spacing: 2px;
+    line-height: 25px;
+}
