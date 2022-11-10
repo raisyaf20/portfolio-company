@@ -31,15 +31,127 @@ body {
         margin-bottom: 100px;
     }
 }
+
+/* Responsive Gallery Container */
+@media screen and (max-width:992px){
+    .gallery-container {
+        max-width:100%;
+        
+    }
+    .gallery-images img {
+        width: 300px !important;
+        height: 290px !important;
+        object-fit: cover;
+        margin-bottom: 40px !important;
+
+    }
+}
+
+@media (max-width:560px){
+    .gallery-container {
+        max-width:100%;
+        
+    }
+    .gallery-images img {
+        width: 200px !important;
+        height: 290px !important;
+        object-fit: cover;
+        margin-bottom: 40px !important;
+
+    }
+}
+
+@media (max-width:355px){
+    .gallery-container {
+        max-width:100%;
+        
+    }
+    .gallery-images img {
+        width: 100px !important;
+        height: 190px !important;
+        object-fit: cover;
+        margin-bottom: 40px !important;
+
+    }
+}
+
 section h1 {
     text-align: center;
     padding: 20px 0;
     color: #7FD9EB;
-    margin-bottom: 20px;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+
+.about {
+    margin-bottom: 30px;
 }
 .about p {
     text-align: center;
     color: black;
     word-spacing: 2px;
     line-height: 25px;
+}
+
+/* Gallery */
+.gallery {
+    background-color:#f7b28a;
+    margin: 20px 20px;
+    padding: 20px 20px !important;
+    object-position: center !important;
+}
+
+.gallery-container {
+  position: relative;
+  justify-content: center;
+  padding: 20px 35px;
+  overflow: hidden;
+  width: 600px !important;
+  height: 350px !important;
+  background: #F5F5F5;
+  box-shadow: 5px 5px 15px #e07d4475;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.h1 {
+  font-size: 1.2em;
+  color: #4E4E4E;
+  margin-top: -5px;
+}
+
+.h2 {
+  color: #C3A1A0;
+  margin-top: -5px;
+}
+
+.gallery-images img {
+  width: 290px;
+  height: 300px;
+  object-fit:cover;
+  object-position:center;
+  margin-bottom: 40px;
+  border-radius:10px;
+}
+
+.product {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+  top: 30%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: #4E4E4E;
+  font-size:12px;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
 }
